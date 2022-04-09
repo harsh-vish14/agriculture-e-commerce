@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  .hero_text {
+    font-family: "Bebas Neue", cursive;
+    .title {
+      font-size: 5rem;
+    }
+    .sub_title {
+      font-size: 1.25rem;
+    }
+    font-weight: bold;
+  }
+}
