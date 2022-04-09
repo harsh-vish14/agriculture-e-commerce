@@ -6,6 +6,16 @@ import { ProductsContextProvider } from "../context/productsContext";
 import { UserDetailsContextProvider } from "../context/userDetailsContext";
 import "../styles/globals.css";
 
+import NProgress from "nprogress";
+import Router from "next/router";
+import "../components/np.scss";
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
+
 function MyApp({ Component, pageProps }) {
   return (
     <Provider session={pageProps.session}>
