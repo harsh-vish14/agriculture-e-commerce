@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "heroku-postbuild": "npm run build",
+    "server": "npm run build && npm run start"
   },
   "dependencies": {
     "@szhsin/react-menu": "^3.0.0",
