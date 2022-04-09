@@ -10,6 +10,7 @@ module.exports = {
     DB_MESSAGE_SENDER: process.env.DB_MESSAGE_SENDER,
     DB_APP_ID: process.env.DB_APP_ID,
     AUTH_KEY: process.env.AUTH_KEY,
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
     AUTH_GOOGLE_SECRET_KEY: process.env.AUTH_GOOGLE_SECRET_KEY,
     AUTH_GOOGLE_CLIENT_KEY: process.env.AUTH_GOOGLE_CLIENT_KEY,
   },
