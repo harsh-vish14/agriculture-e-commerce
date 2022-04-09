@@ -6,7 +6,16 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>Layout</title>
+        <title>Agriculture-e-commerce</title>
+        <link rel="icon" type="image/svg" href="/images/favicon.png" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <meta
+          name="description"
+          content="A E-Commerce where u get every thing to your doorsteps"
+        ></meta>
       </Head>
       <Navbar />
       <main>{props.children}</main>
