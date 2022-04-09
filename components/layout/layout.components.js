@@ -8,6 +8,7 @@ const Layout = (props) => {
       <Head>
         <title>Agriculture-e-commerce</title>
         <link rel="icon" type="image/svg" href="/images/favicon.png" />
+
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
